@@ -1,0 +1,31 @@
+{
+  "name": "murmurhash-node",
+  "version": "1.0.0",
+  "main": "lib/murmurhash-node.js",
+  "description": "JavaScript implementation of the murmurhash algorithm",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint --fix . || exit 0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "flagUpDown/murmurhash-node",
+  "keywords": [
+    "murmurhash",
+    "murmurhash-node",
+    "murmurhash2",
+    "murmurhash3",
+    "murmurhash32"
+  ],
+  "author": "fengjun <1120642944@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flagUpDown/murmurhash-node/issues"
+  },
+  "homepage": "https://github.com/flagUpDown/murmurhash-node#readme",
+  "devDependencies": {
+    "eslint": "^5.15.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "standard": "^12.0.1"
+  }
+}

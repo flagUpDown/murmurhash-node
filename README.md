@@ -48,3 +48,11 @@ murmurhash32.v2(Buffer.from('this is a tést')); // 346350001
 murmurhash32.v2('this is a tést'); // 346350001
 ```
 
+支持返回64位的hash值，seed默认为0
+
+```javascript
+const murmurhash64 = require("../lib/murmurhash-node").bit64;
+
+murmurhash64.Av2("test"); // 2f4a8724618f4c63
+```
+

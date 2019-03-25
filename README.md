@@ -53,7 +53,7 @@ murmurhash32.v2('this is a tést'); // 346350001
 ```javascript
 const murmurhash64 = require("murmurhash-node").bit64;
 
-murmurhash64.Av2("test"); // 2f4a8724618f4c63
-murmurhash64.Av2("hhhh", '0xfffff'); // 95218213350c4a20
+murmurhash64.Av2("test"); // 0x2f4a8724618f4c63
+murmurhash64.Av2("hhhh", '0xfffff'); // 0x95218213350c4a20
 ```
 

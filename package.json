@@ -1,6 +1,6 @@
 {
   "name": "murmurhash-node",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/murmurhash-node.js",
   "description": "JavaScript implementation of the murmurhash algorithm",
   "scripts": {
@@ -14,7 +14,8 @@
     "murmurhash2",
     "murmurhash3",
     "murmurhash32",
-    "murmurhash64"
+    "murmurhash64",
+    "murmurhash128"
   ],
   "author": "fengjun <1120642944@qq.com>",
   "license": "ISC",

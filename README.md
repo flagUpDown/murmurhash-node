@@ -57,3 +57,11 @@ murmurhash64.Av2("test"); // 0x2f4a8724618f4c63
 murmurhash64.Av2("hhhh", '0xfffff'); // 0x95218213350c4a20
 ```
 
+支持返回128位的hash值。seed默认为0，seed支持使用字符串形式的数字
+
+```javascript
+const murmurhash128 = require("murmurhash-node").bit128;
+
+murmurhash128.x64v3("test"); // 0xac7d28cc74bde19d9a128231f9bd4d82
+```
+

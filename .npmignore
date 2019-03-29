@@ -1,5 +1,5 @@
 node_modules
 package-lock.json
 .vscode
+__tests__
 coverage
-__tests__/cpp/test

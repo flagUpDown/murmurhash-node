@@ -10,4 +10,4 @@ rules:
   prettier/prettier: error
   no-fallthrough: off
 
-extends: [standard, plugin:prettier/recommended]
+extends: [standard, plugin:prettier/recommended, plugin:jest/recommended]
